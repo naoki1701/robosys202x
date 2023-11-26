@@ -1,5 +1,7 @@
 #!/bin/bash
-# © 2023 Naoki Kobayashi
+# SPDX-FileCopyrightText: 2023 Naoki Kobayashi
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
 x = 0.0
