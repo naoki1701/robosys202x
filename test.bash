@@ -3,4 +3,4 @@
 
 out=$(python3 plus_b.py 1 3 5)
 
-[ "${out}" = 18 ]
+[ "${out}" = 18.0 ]
