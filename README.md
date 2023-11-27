@@ -1,5 +1,5 @@
 # plus_bコマンド
-![test](http://github.com/naoki1701/robosys202x/actions/workflows/test.yml/badge.svg)
+![test](http://github.com/naoki1701/robosys202x/.github/workflows/test.yml/badge.svg)
 * ファイル名　plus_b.py
 * 授業で取り扱った既存のコマンドplus_b.py（起動時に引数として入力した値の合計を算出するコマンド）に加筆したコマンド
 * 入力した引数の合計の2倍の値を算出する
