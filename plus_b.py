@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2023 Naoki Kobayashi
 # SPDX-License-Identifier: BSD-3-Clause
 
