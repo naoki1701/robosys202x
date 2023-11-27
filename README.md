@@ -1,11 +1,14 @@
-# plusコマンド
+# plus_bコマンド
 * ファイル名　plus_b.py
 * コマンド起動時に入力した値の合計を2倍した結果を算出するコマンド
-* テストコマンドファイル　plus_b.bash
 ## 必要なソフトウェア
 * Python3
 
 ## テスト環境
-* Ubuntu20.04
+* Ubuntu-20.04
 
-© 2023 Naoki kobayashi
+## 著作権に関する記載
+* このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。
+* このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の巨策としたものです.
+*  [ryuichiueda/my_slides robosys2022](http://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+* © 2023 Naoki kobayashi
