@@ -5,7 +5,7 @@
 * 入力した引数の合計の2倍の値を算出する
   * インストール&使用手順：
     ```
-    $ git clone https://github.com/naoki1701/robosys202x.git
+    $ git clone git@github.com:naoki1701/robosys202x.git
     $ cd robosys202x  
     $ chmod +x plus_b.py
     ```
