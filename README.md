@@ -3,6 +3,12 @@
 * ファイル名： `plus_b.py`
 * 授業で取り扱った既存のコマンド `plus_b.py`（起動時に引数として入力した値の合計を算出するコマンド）に加筆したコマンド
 * 入力した引数の合計の2倍の値を算出する
+  * インストール&使用手順：
+    ```
+    $ git clone https://github.com/naoki1701/robosys202x.git
+    $ cd robosys202x  
+      chmod +x plus_b.py
+    ```
   * 使用例：  
     ```
     $ ./plus_b.py 1 2 3
