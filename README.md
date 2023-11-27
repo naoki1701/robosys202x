@@ -7,7 +7,7 @@
     ```
     $ git clone https://github.com/naoki1701/robosys202x.git
     $ cd robosys202x  
-      chmod +x plus_b.py
+    $ chmod +x plus_b.py
     ```
   * 使用例：  
     ```
