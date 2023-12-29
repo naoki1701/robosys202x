@@ -1,24 +1,30 @@
-# plus_bコマンド
-[![test](https://github.com/naoki1701/robosys202x/actions/workflows/test.yml/badge.svg)](https://github.com/naoki1701/robosys202x/actions/workflows/test.yml)
-* ファイル名： `plus_b.py`
-* 授業で取り扱った既存のコマンド `plus_b.py`（起動時に引数として入力した値の合計を算出するコマンド）に加筆したコマンド
-* 入力した引数の合計の2倍の値を算出する
-  * インストール&使用手順：
+# ROS2を用いたパブリッシャ、サブスクライバーの例
+* ディレクトリ名： `ros2_ws`
+* この例は、Pythonを使用したROS2のシンプルなパブリッシャ（`talker.py`）とサブスクライバー（`listener.py`）を示したものです。
+## ワークスペースのビルドとソースの設定
+* ノードを実行する前に、ROS2のワークスペースをビルドする必要があります。
     ```
-    $ git clone git@github.com:naoki1701/robosys202x.git
-    $ cd robosys202x  
-    $ chmod +x plus_b.py
+    $ cd ~/ros2_ws
+    $ colcon build
+    $ source install/setup.bash
     ```
-  * 使用例：  
+##　使用例
+  * 使用例1：  
     ```
-    $ ./plus_b.py 1 2 3
-    12.0
+    端末1$ ros2 run mypkg talker
+    端末2$ ros2 topic echo /countup
     ```
-## 必要なソフトウェア
-* Python3
-
-## テスト環境
-* Ubuntu-20.04
+  * 使用例2：
+    ```
+    端末1$ ros2 run mypkg talker
+    端末2$ ros2 run mypkg listener
+    ```
+  * 使用例3：
+    ```
+    $ ros2 launch mypkg talk_listen.launch.py
+    ```
+## 必要なミドルウェア
+* ROS 2がシステムにインストールされていることを確認してください。ROS 2のインストール手順については、公式のROS 2インストールガイドを参照してください：[ROS 2 インストール](https://index.ros.org/doc/ros2/Installation/)
 
 ## 著作権に関する記載
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。
