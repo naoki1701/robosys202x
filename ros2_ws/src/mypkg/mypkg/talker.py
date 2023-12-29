@@ -9,6 +9,10 @@ rclpy.init()
 node = Node("talker")
 pub = node.create_publisher(Person, "person", 10)
 n = 0
+
+def publish(msg):
+    pub.publish(msg)
+
 def cb():
     global n
     msg = Person()
@@ -17,5 +21,10 @@ def cb():
     publish(msg)
     n += 1
 
-node.create_timer(0.5, cb)
+timer_interval = 1.0
+node.create_timer(timer_interval, cb)
 rclpy.spin(node)
+
+node.get_logger().info('Exiting talker node.')
+rclpy.shutdown()
+
