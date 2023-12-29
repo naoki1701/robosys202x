@@ -1,2 +1,2 @@
-string 小林尚輝
+string name
 uint8 22
